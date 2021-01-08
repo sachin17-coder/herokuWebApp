@@ -1,7 +1,7 @@
 let express = require('express')
 let app = express()
 let path = require('path')
-let port = process.env.PORT || 8000
+ port = process.env.PORT || 8000
 let hbs = require('hbs')
 let pathForStatic = path.join(__dirname, '../public')
 // console.log(path.join(__dirname, '../public'))
